@@ -1,0 +1,8 @@
+.progress__image{
+    margin-top: 0.5rem;
+    min-height: 4rem;
+    min-width: 30rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

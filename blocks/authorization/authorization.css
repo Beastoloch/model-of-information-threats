@@ -1,0 +1,6 @@
+.authorization{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.nav-bar__link{
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 5rem;
+    transition: opacity 0.2s linear;
+}
+
+.nav-bar__link:hover{
+    opacity: 0.8;
+}

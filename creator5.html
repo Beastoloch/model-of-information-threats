@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/styles.css">
+    <title>Model of information threats</title>
+</head>
+<body class = 'page'>
+    <nav class = 'nav-bar'>
+        <a class = "nav-bar__title" href = 'homePage.html'>Model of information threats</a>
+        <a class = 'nav-bar__link' href = 'creator1.html'>Create a model</a>
+        <a class = 'nav-bar__link nav-bar__link_account' href = 'account.html'>Account</a>
+    </nav>
+    <div class = 'constructor'>
+        <div class = 'progress'>
+            <h3 class = 'progress__title'>Определение объектов воздействия</h3>
+            <div class = 'progress__image' style="background-image: url(images/step5.png)"></div>
+        </div>
+        <form class = 'form'>
+            <div style="display: flex; flex-direction: row; gap: 3rem">
+                <div style="display: flex; flex-direction: column">
+                    <label for='influenceObject' class = 'form__label'>Возможные объекты воздействия:</label>
+                    <input type='text' id='influenceObject' name='influenceObject' class = 'form__input' placeholder="Введите объект воздействия" required>
+                </div>
+            </div>
+            <button type='submit' class = 'form__button'>Отправить</button>
+        </form>
+        <div class = 'output'>
+            <div style="display: flex; flex-direction: row; gap: 3rem">
+                <div style="display: flex; flex-direction: column">
+                    <p class = 'output__item'>Компоненты воздействия:</p>
+                    <p class = 'output__box'></p>
+                </div>
+                <table>
+                    <tr style="border: 1px solid black">
+                        <td style="border: 1px solid black">Возможные негативные последствия</td>
+                        <td style="border: 1px solid black">Объект воздействия</td>
+                        <td style="border: 1px solid black">Вид воздействия</td>
+                    </tr>
+                    <tr style="border: 1px solid black" id = table>
+                        <td style="border: 1px solid black" id = 'possibleConsequences'></td>
+                        <td style="border: 1px solid black" id = 'actionObject'></td>
+                        <td style="border: 1px solid black" id = 'actionType'></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: space-around">
+            <a class = 'continue-link' href="creator4.html">← Предыдущий этап</a>
+            <a class = 'continue-link' href="creator6.html">Следующий этап →</a>
+        </div>
+    </div>
+    <footer class = 'footer' style="margin-top: auto">
+        <p class = 'footer__copyright'>&copy; 2023 Beastoloch</p>
+    </footer>
+    <script src = './scripts/creator5.js'></script>
+</body>
+</html>

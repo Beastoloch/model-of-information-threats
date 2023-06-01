@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/styles.css">
+    <title>Model of information threats</title>
+</head>
+<body class = 'page'>
+    <nav class = 'nav-bar'>
+        <a class = "nav-bar__title" href = 'homePage.html'>Model of information threats</a>
+        <a class = 'nav-bar__link' href = 'creator1.html'>Create a model</a>
+        <a class = 'nav-bar__link nav-bar__link_account' href = 'account.html'>Account</a>
+    </nav>
+    <div class = "authorization">
+        <h2 class = "authorization__title">Registration</h2>
+        <form method="post" class = "authorization__form">
+            <input class = "authorization__input" type="text" name="username" id ='username' placeholder="Username" required>
+            <input class = "authorization__input" type="password" name="password" id ='password' placeholder="Password" required>
+            <input class = "authorization__input" type="password" name="repeatPassword" id ='repeatPassword' placeholder="Repeat password" required>
+            <button type="submit" class="authorization__button">Sign up</button>
+            <h3 id = 'error'></h3>
+        </form>
+    </div>
+    <footer class = 'footer' style="margin-top: auto">
+        <p class = 'footer__copyright'>&copy; 2023 Beastoloch</p>
+    </footer>
+    <script src = 'scripts/sign-up.js'></script>
+</body>
+</html>

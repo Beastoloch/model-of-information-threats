@@ -1,0 +1,13 @@
+.authorization__button{
+    min-height: 2rem;
+    background-color: #3c41de;
+    color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+}
+
+.authorization__button:hover{
+    opacity: 0.8;
+}

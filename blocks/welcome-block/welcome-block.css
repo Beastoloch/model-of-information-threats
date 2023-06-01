@@ -1,0 +1,4 @@
+.welcome-block{
+    text-align: center;
+    min-height: calc(100vh - 10.5rem);
+}

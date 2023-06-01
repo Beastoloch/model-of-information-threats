@@ -1,0 +1,6 @@
+.progress{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem auto 2rem;
+    text-align: center;
+}
